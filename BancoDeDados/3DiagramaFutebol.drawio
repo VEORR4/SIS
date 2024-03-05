@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2024-03-05T15:43:14.914Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" version="23.1.7" etag="JFzLRhIwqDFs2gHj1u8y" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-05T15:46:21.043Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="gZbbrhVjyjgV-oXPojhJ" version="23.1.7" type="github">
   <diagram name="Page-1" id="-VNo3Qkicl_mFRUMf00s">
-    <mxGraphModel>
+    <mxGraphModel dx="1173" dy="587" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Nbg9ZnagzlLmk4FOJAgQ-1" value="&lt;h1 style=&quot;text-align: center;&quot;&gt;Campeonato de futebol&lt;/h1&gt;&lt;p&gt;A especificação refere-se ao controle de um campeonato de futebol. Participam do campeonato até 24 equipes. Cada equipe possui um nome, nome de seu técnico, uniformes 1 (local) e 2 (visitante) cada um deve ter a cor predominante da camisa, das meias e do calção. Cada equipe possui 11 jogadores titulares e 11 reservas, e que deve ser armazenado o nome, idade e situação (se ele é titular ou reserva). Deve-se relacionar com cada equipe, as Informações sobre a que pais pertence. Cada país possui nome, continente e condição (país desenvolvido, em desenvolvimento ou subdesenvolvido). Devem ser guardadas informações sobre as partidas realizadas. Sobre cada partida deve-se guardar as equipes participantes, a data e hora realizada, o placar final, o nome do juiz principal, a cidade que foi realizada e o nome do campo.&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="720" height="160" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
