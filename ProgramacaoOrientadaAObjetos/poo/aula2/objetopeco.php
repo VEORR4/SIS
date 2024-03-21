@@ -2,13 +2,7 @@
 #carrega as classes
 include_once 'classes/Pessoa.class.php'; 
 include_once 'classes/Conta.class.php'; 
-$carlos = new Pessoa;
-$carlos->Codigo = 10;
-$carlos->Nome = 'Carlos da Silva';
-$carlos->Altura = 185;
-$carlos->Idade = 25;
-$carlos->Nascimento = '10/04/1976';
-$carlos->Escolaridade = 'Ensino médio';
+$carlos = new Pessoa(10, "Carlos da Silva", 1.85, 25, '10/04/1976', 'Ensino médio', 650.00);
 
 echo "Manipulando o objeto {$carlos->Nome}: <br>";
 
@@ -16,14 +10,7 @@ echo "{$carlos->Nome} é formado em: {$carlos->Escolaridade} <br>";
 $carlos->Formar('Técnico em Eletricidade');
 echo "{$carlos->Nome} é formado em: {$carlos->Escolaridade} <br>";
 
-$conta_carlos = new Conta;
-$conta_carlos->Agencia = 6677;
-$conta_carlos->Codigo = 'CC.12346-5';
-$conta_carlos->DataDeCriacao = '10/07/2022';
-$conta_carlos->Titular = $carlos;
-$conta_carlos->Senha = 9876;
-$conta_carlos->Saldo = 567.89;
-$conta_carlos->Cancelada = false;
+$conta_carlos = new Conta(6677, 'CC.12345-5', '10/07/2022', $carlos, 9876, 567.89);
 
 echo '<br';
 echo "Manipulando a conta de: {$conta_carlos->Titular->Nome}<br>";
