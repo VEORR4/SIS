@@ -1,0 +1,19 @@
+CREATE DATABASE meudb;
+
+USE meudb;
+
+CREATE TABLE cidade ( 
+	idcidade INT PRIMARY KEY,
+	nome VARCHAR(50),
+	uf CHAR(2)
+);
+
+CREATE TABLE aluno (
+	idaluno INT PRIMARY KEY,
+	nome VARCHAR(50),
+	telefone CHAR(11),
+	idcidade INT,
+	CONSTRAINT fkalunocidade
+	FOREIGN KEY (idcidade)
+	REFERENCES cidade(idcidade)
+);db
