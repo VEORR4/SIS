@@ -1,6 +1,6 @@
 from flask import Flask, jsonify
 
-import requests
+import requests #biblioteca
 
 app = Flask(__name__)
 
