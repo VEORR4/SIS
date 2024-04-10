@@ -1,0 +1,57 @@
+<mxfile host="app.diagrams.net" modified="2024-04-10T00:25:15.496Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="GtmcD6kyQw776lXwVfjU" version="23.1.6" type="github">
+  <diagram name="Página-1" id="c2Zrx7VNd8n8L_P0-B3A">
+    <mxGraphModel dx="1862" dy="551" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JV-TQmDFVj_u_oLPxMAf-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="JV-TQmDFVj_u_oLPxMAf-3" target="JV-TQmDFVj_u_oLPxMAf-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JV-TQmDFVj_u_oLPxMAf-3" value="Produto" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-760" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JV-TQmDFVj_u_oLPxMAf-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="JV-TQmDFVj_u_oLPxMAf-4" target="JV-TQmDFVj_u_oLPxMAf-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JV-TQmDFVj_u_oLPxMAf-4" value="Marca" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-480" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JV-TQmDFVj_u_oLPxMAf-5" value="Cliente" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-600" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JV-TQmDFVj_u_oLPxMAf-7" value="Fornecedor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JV-TQmDFVj_u_oLPxMAf-8" value="Cidade" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JV-TQmDFVj_u_oLPxMAf-9" value="Vendedor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JV-TQmDFVj_u_oLPxMAf-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JV-TQmDFVj_u_oLPxMAf-10" target="JV-TQmDFVj_u_oLPxMAf-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-120" y="230.17647058823536" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JV-TQmDFVj_u_oLPxMAf-10" value="Venda" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JV-TQmDFVj_u_oLPxMAf-11" value="Compra" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JV-TQmDFVj_u_oLPxMAf-12" value="Caixa" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JV-TQmDFVj_u_oLPxMAf-13" value="Usuários" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JV-TQmDFVj_u_oLPxMAf-14" value="Contas a receber" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JV-TQmDFVj_u_oLPxMAf-15" value="Contas a pagar" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
