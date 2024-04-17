@@ -1,6 +1,5 @@
 <?php
-
-Class Conta {
+abstract Class Conta {
     public $Agencia;
     public $Codigo;
     public $DataDeCriacao;
@@ -15,43 +14,33 @@ Class Conta {
         $this->DataDeCriacao = $dataDeCriacao;
         $this->Titular = $titular;
         $this->Senha = $senha;
-        #chamada a outro metodo da Classe
+        $this->Saldo = $saldo;
 
         $this->Depositar($saldo);
         $this->Cancelada = false;
     }
 
-    /*Método Retirar Diminui o Saldo em $quantia*/
-    
-    function Retirar($quantia){
-        if ($quantia> 0){
+    function Retirar($quantia) {
+        if ($quantia>0){
             $this->Saldo -= $quantia;
         }
     }
 
-    /*Método Depositar aumenta o Saldo em $quantia*/
-
-    function Depositar($quantia){
-        if ($quantia> 0){
+    function Depositar($quantia) {
+        if ($quantia>0){
             $this->Saldo += $quantia;
         }
     }
 
-
-    /*Método ObterSaldo retorna o saldo atual*/
-
-    function ObterSaldo(){
+    function ObterSaldo() {
         return $this->Saldo;
     }
 
+    abstract function Transferir($Conta, $Valor);
 
-
- #metodo destrutor, finaliza o objeto
-
-    function __destruct(){
+    function __destruct() {
         echo "<br>
-        Objeto Conta {$this->Codigo} de {$this->Titular->Nome}
-        finalizada...
+        Objeto Conta {$this->Codigo} de {$this->Titular->Nome} finalizada...
         <br>";
-        }
     }
+}
