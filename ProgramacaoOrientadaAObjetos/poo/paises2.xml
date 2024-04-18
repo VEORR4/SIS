@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<pais>
+    <nome>Brasil</nome>
+    <idioma>português</idioma>
+    <capital>Brasilia</capital>
+    <religiao>católica</religiao>
+    <moeda>Real (R$)</moeda>
+    <populacao>190 milhões</populacao>
+    <geografia>
+        <clima>Temperado</clima>
+        <costa>7367 km</costa>
+        <pico>Neblina (3014 m)</pico>
+    </geografia>
+</pais>
