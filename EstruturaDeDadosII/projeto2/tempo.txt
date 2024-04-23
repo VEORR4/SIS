@@ -1,0 +1,6 @@
+Algoritmo	  Tempo de Execução (segundos)	Número de Comparações	
+
+Bubble Sort	  4.526.636.838.912.960	        7.149.315	
+Merge Sort	  3.236.842.155.456.540	        5.565	
+Quick Sort	  30.449.628.829.956.000	    80.009	
+			

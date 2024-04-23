@@ -1,5 +1,5 @@
 from flask import Flask, request
-from EstruturaDeDadosII.ibge import busca
+from EstruturaDeDadosII.projeto1.ibge import busca
 
 app = Flask(__name__)
 

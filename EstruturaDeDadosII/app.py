@@ -1,5 +1,5 @@
 from flask import Flask, request
-from ibge import busca, calcula_ocorrencias, frequencia_minima, frequencia_maximo, ordena
+from EstruturaDeDadosII.projeto1.ibge import busca, calcula_ocorrencias, frequencia_minima, frequencia_maximo, ordena
 
 app = Flask(__name__)
 
