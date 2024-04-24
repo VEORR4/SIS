@@ -27,4 +27,8 @@ class Cliente:
 cliente = Cliente("João Vitor", "joaovitorgalvao26@gmail.com", "basic")
 print(cliente.nome)
 print(cliente.plano)
-clinte.ver_filme("Harry Potter", "premium") 
+cliente.ver_filme("Harry Potter", "premium") 
+
+cliente.mudar_plano("premium")
+print(cliente.plano)
+cliente.ver_filme("Harry Potter", "Premium")
