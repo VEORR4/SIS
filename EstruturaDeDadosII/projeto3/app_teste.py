@@ -5,6 +5,6 @@ outro = Task("Fazer almoço")
 outro.set_descricao("Descrição do outro objeto")
 
 print(obj.info())
-print("---------------------------------")
+print("-"*45)
 print(outro.info())
 

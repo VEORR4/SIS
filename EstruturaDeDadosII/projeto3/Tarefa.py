@@ -1,8 +1,6 @@
 class Task():
     #construtor
     def __init__(self, titulo: str):
-        print("construtor")
-        print(self)
         self.__tit = titulo 
         self.__desc = "Descrição Padrão"
         #definir o valor da prioridade da task
