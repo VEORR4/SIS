@@ -1,104 +1,52 @@
-import java.util.*;
-
-// Classe Livro
-class Livro {
-    private int id;
-    private String titulo;
-    private String autor;
-    private int anoPublicacao;
-
-    public Livro(int id, String titulo, String autor, int anoPublicacao) {
-        this.id = id;
-        this.titulo = titulo;
-        this.autor = autor;
-        this.anoPublicacao = anoPublicacao;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public String getTitulo() {
-        return titulo;
-    }
-
-    public String getAutor() {
-        return autor;
-    }
-
-    public int getAnoPublicacao() {
-        return anoPublicacao;
-    }
-
-    @Override
-    public String toString() {
-        return "Livro{" +
-                "id=" + id +
-                ", titulo='" + titulo + '\'' +
-                ", autor='" + autor + '\'' +
-                ", anoPublicacao=" + anoPublicacao +
-                '}';
-    }
-}
-
-// Classe Biblioteca
-class Biblioteca {
-    private LinkedList<Livro> livros;
-
-    public Biblioteca() {
-        this.livros = new LinkedList<>();
-    }
-
-    public void inserirLivro(Livro livro) {
-        livros.add(livro);
-    }
-
-    public Livro buscarLivroPorId(int id) {
-        for (Livro livro : livros) {
-            if (livro.getId() == id) {
-                return livro;
-            }
-        }
-        return null;
-    }
-
-    public void removerLivroPorId(int id) {
-        livros.removeIf(livro -> livro.getId() == id);
-    }
-
-    public List<Livro> listarLivros() {
-        List<Livro> listaOrdenada = new ArrayList<>(livros);
-        listaOrdenada.sort(Comparator.comparingInt(Livro::getId));
-        return listaOrdenada;
-    }
-}
-
-// Classe Main
 public class Main {
     public static void main(String[] args) {
         Biblioteca biblioteca = new Biblioteca();
 
-        // Inserir livros
-        biblioteca.inserirLivro(new Livro(1, "O Senhor dos Anéis", "J.R.R. Tolkien", 1954));
-        biblioteca.inserirLivro(new Livro(2, "O Guia do Mochileiro das Galáxias", "Douglas Adams", 1979));
-        biblioteca.inserirLivro(new Livro(3, "Harry Potter e a Pedra Filosofal", "J.K. Rowling", 1997));
+        // Inserindo alguns livros
+        biblioteca.inserirLivro(new Livro(1, "Dom Quixote", "Miguel de Cervantes", 1605));
+        biblioteca.inserirLivro(new Livro(2, "A Arte da Guerra", "Sun Tzu", -500));
+        biblioteca.inserirLivro(new Livro(3, "Cem Anos de Solidão", "Gabriel García Márquez", 1967));
 
-        // Buscar livros por ID
-        Livro livroBuscado = biblioteca.buscarLivroPorId(2);
-        if (livroBuscado != null) {
-            System.out.println("Livro encontrado: " + livroBuscado);
+        // Listando todos os livros
+        System.out.println("Listagem de Livros:");
+        biblioteca.listarLivros();
+
+        // Buscando livro pelo ID
+        System.out.println("\nBuscando livro pelo ID 2:");
+        Livro livroEncontrado = biblioteca.buscarLivroPorId(2);
+        if (livroEncontrado != null) {
+            System.out.println(livroEncontrado);
         } else {
-            System.out.println("Livro com ID 2 não encontrado.");
+            System.out.println("Livro não encontrado.");
         }
 
-        // Remover livros por ID
-        biblioteca.removerLivroPorId(3);
-        System.out.println("Livro com ID 3 removido.");
+        // Removendo livro pelo ID
+        System.out.println("\nRemovendo livro pelo ID 1:");
+        biblioteca.removerLivroPorId(1);
+        System.out.println("Listagem de Livros atualizada:");
+        biblioteca.listarLivros();
 
-        // Listar livros
-        System.out.println("\nLista de livros:");
-        for (Livro livro : biblioteca.listarLivros()) {
-            System.out.println(livro);
+        // Inserindo alguns usuários
+        biblioteca.registrarUsuario(new Usuario(1, "Alice", "alice@email.com"));
+        biblioteca.registrarUsuario(new Usuario(2, "Bob", "bob@email.com"));
+
+        // Listando todos os usuários
+        System.out.println("\nListagem de Usuários:");
+        biblioteca.listarUsuarios();
+
+        // Buscando usuário pelo ID
+        System.out.println("\nBuscando usuário pelo ID 2:");
+        Usuario usuarioEncontrado = biblioteca.buscarUsuarioPorId(2);
+        if (usuarioEncontrado != null) {
+            System.out.println(usuarioEncontrado);
+        } else {
+            System.out.println("Usuário não encontrado.");
         }
+
+        // Removendo usuário pelo ID
+        System.out.println("\nRemovendo usuário pelo ID 1:");
+        biblioteca.removerUsuarioPorId(1);
+        System.out.println("Listagem de Usuários atualizada:");
+        biblioteca.listarUsuarios();
     }
 }
