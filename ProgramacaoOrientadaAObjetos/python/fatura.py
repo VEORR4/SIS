@@ -39,7 +39,7 @@ class Fatura:
             self._quantidade = quantidade
   
     @property
-    def preco(Self):
+    def preco(self):
         return self._preco
     
     @preco.setter
