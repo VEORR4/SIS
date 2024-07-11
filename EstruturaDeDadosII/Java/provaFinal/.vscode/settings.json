@@ -1,0 +1,6 @@
+{
+     "java.project.sourcePaths": ["provaFinal\\src"],
+     "java.project.referencedLibraries": [
+          "provaFinal\\lib\\mariadb-java-client-3.4.0(1).jar"
+     ]
+}

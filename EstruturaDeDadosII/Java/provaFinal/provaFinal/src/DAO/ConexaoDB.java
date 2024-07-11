@@ -3,11 +3,11 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-public class ConectaDB {
+public class ConexaoDB {
 
     private Connection conexao;
 
-    public ConectaDB() {
+    public ConexaoDB() {
         String url="jdbc:mariadb://localhost:3306/ConexaoDB";
         String usuario="admin";
         String senha="admin";

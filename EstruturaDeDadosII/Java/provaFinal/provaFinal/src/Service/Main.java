@@ -1,3 +1,4 @@
+package Service;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -136,10 +137,10 @@ public class Main {
             }
             switch (opcao) {
                 case 1:
-                    Gerenciamento.criarParticipação();
+                    Gerenciamento.criarParticipacao();
                     break;
                 case 2:
-                    Gerenciamento.lsitarParticipacoes();
+                    Gerenciamento.listarParticipacoes();
                     break;
                 case 3:
                     Gerenciamento.atualizarPartipacao();
