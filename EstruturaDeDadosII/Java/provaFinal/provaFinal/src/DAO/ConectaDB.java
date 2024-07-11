@@ -8,7 +8,7 @@ public class ConectaDB {
     private Connection conexao;
 
     public ConectaDB() {
-        String url="jdbc:mariadb://localhost:3306/ed2";
+        String url="jdbc:mariadb://localhost:3306/ConexaoDB";
         String usuario="admin";
         String senha="admin";
 

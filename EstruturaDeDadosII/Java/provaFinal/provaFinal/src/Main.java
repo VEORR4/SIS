@@ -15,7 +15,7 @@ public class Main {
             System.out.println("2: projetos");
             System.out.println("3: Participações");
             System.out.println("0: sair");
-            System.out.print("Opção: \n\n");
+            System.out.print("Opção:");
 
             opcao = scanner.nextInt();
             
@@ -78,4 +78,83 @@ public class Main {
             }
         }while (opcao != 0);
     }
+
+     private static void gerenciarProjetos(){
+        int opcao;
+
+        do {
+            System.out.println("\n1: Criar novo projeto");
+            System.out.println("\n2: Listar projetos");
+            System.out.println("\n3: Atualizar projeto");
+            System.out.println("\n4: Excluir projeto");
+            System.out.println("\n0: Voltar");
+            System.out.print("Opção: ");
+            opcao = scanner.nextInt();
+
+            if (opcao < 0 || opcao > 4){
+                System.out.println("Opção inválida.");
+                opcao = scanner.nextInt();
+            }
+            switch (opcao) {
+                case 1:
+                    Gerenciamento.criarProjeto();
+                    break;
+                case 2:
+                    Gerenciamento.listarProjetos();
+                    break;
+                case 3:
+                    Gerenciamento.atualizarProjeto();
+                    break;
+                case 4:
+                    Gerenciamento.excluirProjeto();
+                    break;
+                case 0:
+                    System.out.println("Voltando...");
+                    break;
+                default: 
+                    System.out.println("Opção inválida.");
+            }
+        }while (opcao != 0);
+    }
+
+    private static void gerenciarParticipacoes(){
+        int opcao;
+
+        do {
+            System.out.println("\n1: Criar nova participação");
+            System.out.println("\n2: Listar participações");
+            System.out.println("\n3: Atualizar participação");
+            System.out.println("\n4: Excluir participação");
+            System.out.println("\n0: Voltar");
+            System.out.print("Opção: ");
+
+            opcao = scanner.nextInt();
+
+            if (opcao < 0 || opcao > 4){
+                System.out.println("Opção inválida.");
+                opcao = scanner.nextInt();
+            }
+            switch (opcao) {
+                case 1:
+                    Gerenciamento.criarParticipação();
+                    break;
+                case 2:
+                    Gerenciamento.lsitarParticipacoes();
+                    break;
+                case 3:
+                    Gerenciamento.atualizarPartipacao();
+                    break;
+                case 4:
+                    Gerenciamento.excluirParticipacao();
+                    break;
+                case 0:
+                    System.out.println("Voltando...");
+                    break;
+                default: 
+                    System.out.println("Opção inválida.");
+            }
+        }while (opcao != 0);
+    }
+
+
 }

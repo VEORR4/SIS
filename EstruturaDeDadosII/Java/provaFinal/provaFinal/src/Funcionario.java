@@ -1,14 +1,14 @@
 public class Funcionario {
-     private int id;
+     private int idFuncionario;
      private String nome;
      private String cargo;
      private String departamento;   
      
-     public void setId(int id){
-          this.id = id;
+     public void setIdFuncionario(int idFuncionario){
+          this.idFuncionario = idFuncionario;
      }
-     public int getId(int id){
-         return this.id;
+     public int getIdFuncionario(int idFuncionario){
+         return this.idFuncionario;
      }
 
      public void setNome(String nome){
