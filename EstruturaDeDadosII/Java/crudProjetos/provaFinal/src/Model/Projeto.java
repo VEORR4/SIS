@@ -5,10 +5,10 @@ public class Projeto {
      private int idProjeto;
      private String nomeProjeto;
      private String descricaoProjeto;
-     private Date dataInicio;
-     private Date dataFim;
+     private String dataInicio;
+     private String dataFim;
 
-     public Projeto(int idProjeto, String nomeProjeto, String descricaoProjeto, Date dataInicio, Date dataFim){
+     public Projeto(int idProjeto, String nomeProjeto, String descricaoProjeto, String dataInicio, String dataFim){
           this.idProjeto = idProjeto;
           this.nomeProjeto = nomeProjeto;
           this.descricaoProjeto = descricaoProjeto ;
@@ -39,18 +39,18 @@ public class Projeto {
      }
 
      
-     public void setdataInicio(Date dataInicio){
+     public void setdataInicio(String dataInicio){
           this.dataInicio = dataInicio;
      }
-     public Date getdataInicio(Date dataInicio){
+     public String getdataInicio(String dataInicio){
           return this.dataInicio;
      }
    
 
-     public void setDataFim(Date dataFim){
+     public void setDataFim(String dataFim){
           this.dataFim = dataFim;
      }
-     public Date getDataFim(Date dataFim){
+     public String getDataFim(String dataFim){
           return this.dataFim;
      }
 }    

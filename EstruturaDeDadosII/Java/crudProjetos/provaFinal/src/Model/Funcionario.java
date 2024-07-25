@@ -41,22 +41,7 @@ public class Funcionario {
      }
 
      public String toString() {
-        return " ID: " + getIdFuncionario(idFuncionario) + " Nome: " + getNomeFuncionario(cargo) + "Cargo: " + getCargo(cargo) + "Departamento: " + getDepartamento(departamento);
+        return "ID:" + getIdFuncionario(idFuncionario) + " Nome:" + getNomeFuncionario(cargo) + " Cargo:" + getCargo(cargo) + " Departamento:" + getDepartamento(departamento);
     }
-
-     public String getNome() {
-          // TODO Auto-generated method stub
-          throw new UnsupportedOperationException("Unimplemented method 'getNome'");
-     }
-
-     public String nomeFuncionario() {
-          // TODO Auto-generated method stub
-          throw new UnsupportedOperationException("Unimplemented method 'nomeFuncionario'");
-     }
-
-     public void alterar(Funcionario funcionario) {
-          // TODO Auto-generated method stub
-          throw new UnsupportedOperationException("Unimplemented method 'alterar'");
-     }
 
 }

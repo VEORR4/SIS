@@ -1,4 +1,5 @@
 package Service;
+import java.text.ParseException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -7,16 +8,18 @@ public class Main {
 
     Gerenciamento gerenciamento = new Gerenciamento();
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws ParseException {
         int opcao;
 
         do{
-            System.out.println("\n\n==========Gestão de projetos==========");
-            System.out.println("1: Funcionários");
-            System.out.println("2: projetos");
-            System.out.println("3: Participações");
-            System.out.println("0: sair");
-            System.out.print("Opção:");
+            System.out.println("\n==========Gestão de projetos==========\n");
+
+            System.out.println("        |   1: Funcionários   |");
+            System.out.println("        |   2: projetos       |");
+            System.out.println("        |   3: Participações  |");
+            System.out.println("        |   0: sair           |");
+            System.out.print("\n            Opção:");
+            
 
             opcao = scanner.nextInt();
             
@@ -46,10 +49,10 @@ public class Main {
 
         do {
             System.out.println("\n1: Adicionar funcionário");
-            System.out.println("\n2: Listar funcionários");
-            System.out.println("\n3: Atualizar funcionário");
-            System.out.println("\n4: Remover funcionário");
-            System.out.println("\n0: Voltar");
+            System.out.println("2: Listar funcionários");
+            System.out.println("3: Atualizar funcionário");
+            System.out.println("4: Remover funcionário");
+            System.out.println("0: Voltar\n");
             System.out.print("Opção: ");
 
             opcao = scanner.nextInt();
@@ -63,13 +66,13 @@ public class Main {
                     Gerenciamento.adicionarFuncionarios();
                     break;
                 case 2:
-                    Gerenciamento.listarFuncionarios();
+                    // Gerenciamento.listarFuncionarios();
                     break;
                 case 3:
-                    Gerenciamento.atualizarFuncionarios();
+                    // Gerenciamento.atualizarFuncionarios();
                     break;
                 case 4:
-                    Gerenciamento.removerFuncionarios();
+                    // Gerenciamento.removerFuncionarios();
                     break;
                 case 0:
                     System.out.println("Voltando...");
@@ -80,7 +83,7 @@ public class Main {
         }while (opcao != 0);
     }
 
-     private static void gerenciarProjetos(){
+     private static void gerenciarProjetos() throws ParseException{
         int opcao;
 
         do {
@@ -101,13 +104,13 @@ public class Main {
                     Gerenciamento.criarProjeto();
                     break;
                 case 2:
-                    Gerenciamento.listarProjetos();
+                    // Gerenciamento.listarProjetos();
                     break;
                 case 3:
-                    Gerenciamento.atualizarProjeto();
+                    // Gerenciamento.atualizarProjeto();
                     break;
                 case 4:
-                    Gerenciamento.excluirProjeto();
+                    // Gerenciamento.excluirProjeto();
                     break;
                 case 0:
                     System.out.println("Voltando...");
@@ -137,16 +140,16 @@ public class Main {
             }
             switch (opcao) {
                 case 1:
-                    Gerenciamento.criarParticipacao();
+                    // Gerenciamento.criarParticipacao();
                     break;
                 case 2:
-                    Gerenciamento.listarParticipacoes();
+                    // Gerenciamento.listarParticipacoes();
                     break;
                 case 3:
-                    Gerenciamento.atualizarPartipacao();
+                    // Gerenciamento.atualizarPartipacao();
                     break;
                 case 4:
-                    Gerenciamento.excluirParticipacao();
+                    // Gerenciamento.excluirParticipacao();
                     break;
                 case 0:
                     System.out.println("Voltando...");
