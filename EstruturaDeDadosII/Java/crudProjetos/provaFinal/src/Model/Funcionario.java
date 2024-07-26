@@ -15,14 +15,14 @@ public class Funcionario {
      public void setIdFuncionario(int idFuncionario){
           this.idFuncionario = idFuncionario;
      }
-     public int getIdFuncionario(int idFuncionario){
+     public int getIdFuncionario(){
          return this.idFuncionario;
      }
 
      public void setNomeFuncionario(String nomeFuncionario){
           this.nomeFuncionario = nomeFuncionario;
      }
-     public String getNomeFuncionario(String nomeFuncionario){
+     public String getNomeFuncionario(){
           return this.nomeFuncionario;
      }
 
@@ -41,7 +41,7 @@ public class Funcionario {
      }
 
      public String toString() {
-        return "ID:" + getIdFuncionario(idFuncionario) + " Nome:" + getNomeFuncionario(cargo) + " Cargo:" + getCargo(cargo) + " Departamento:" + getDepartamento(departamento);
+          return "\nFuncionário adicionado:" + "\n\nID:" + idFuncionario + "\nNome:" + nomeFuncionario + "\nCargo:" + cargo + "\nDepartamento:" + departamento;
     }
 
 }

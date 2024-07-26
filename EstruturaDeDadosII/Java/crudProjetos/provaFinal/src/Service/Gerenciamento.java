@@ -19,15 +19,12 @@ public class Gerenciamento {
 
      static Scanner scanner = new Scanner(System.in);
 
-     static String nomeFuncionario, cargo, departamento, nomeProjeto, descricaoProjeto, nomeParticipacao, descricaoParticipacao;
+     static String nomeFuncionario, cargo, departamento, nomeProjeto, descricaoProjeto, nomeParticipacao, descricaoParticipacao, dataInicio, dataFim;
      static int idFuncionario, idProjeto, idParticipacao, horasTrabalhadas;
-     static String dataInicio;
-
-     static Date dataFim;
      
      
      //FUNCIONÁRIOS
-     public static void adicionarFuncionarios(){
+     public static Funcionario adicionarFuncionarios(){
           System.out.print("Digite o ID do funcionário: ");
           idFuncionario = scanner.nextInt();
           System.out.print("Digite o nome do funcionário: ");
@@ -40,13 +37,15 @@ public class Gerenciamento {
 
           Funcionario novoFuncionario = new Funcionario(idFuncionario, nomeFuncionario, cargo, departamento);
           // FuncionarioDAO.inserir(novoFuncionario);
-          System.out.println("Funcionário adicionado:\n\n" + novoFuncionario);     
+          System.out.println(novoFuncionario);  
+          return novoFuncionario;   
      }
      
-     // public static String listarFuncionarios(){
-     //      System.out.println("\nFuncionários: ");
-     //      return FuncionarioDAO.listarFuncionarios();
-     // }
+     public static String listarFuncionarios(){
+          System.out.println("\nFuncionários: ");
+          return "FuncionarioDAO.listarFuncionarios()";
+          
+     }
 
 //      public static void atualizarFuncionarios(){
 //           System.out.print("Digite o ID do usuário a ser atualizado: ");
@@ -102,7 +101,7 @@ public class Gerenciamento {
           Projeto novoProjeto = new Projeto(idProjeto, nomeProjeto, descricaoProjeto, dataInicio, dataFim);
           // ProjetoDAO.inserir(novoProjeto);
 
-          System.out.println("Projeto adicionado:" + novoProjeto);
+          System.out.println(novoProjeto);
      }
      
 //      public static void atualizarProjeto(){
@@ -115,21 +114,21 @@ public class Gerenciamento {
 
 //      }
 
-//      //PARTICIPAÇÕES
-//      public static void criarParticipacao(){
-//           System.out.print("Digite o ID da participação: ");
-//           idParticipacao = scanner.nextInt();
-//           System.out.print("Digite ID do funcionário: ");
-//           idFuncionario = scanner.nextInt();
-//           System.out.print("ID do projeto: ");
-//           idProjeto= scanner.nextInt();
-//           System.out.print("Digite as horas trabalhadas na participação: ");
-//           horasTrabalhadas = scanner.nextInt();
+     //PARTICIPAÇÕES
+     public static void criarParticipacao(){
+          System.out.print("Digite o ID da participação: ");
+          idParticipacao = scanner.nextInt();
+          System.out.print("Digite ID do funcionário: ");
+          idFuncionario = scanner.nextInt();
+          System.out.print("ID do projeto: ");
+          idProjeto= scanner.nextInt();
+          System.out.print("Digite as horas trabalhadas na participação: ");
+          horasTrabalhadas = scanner.nextInt();
 
-//           Participacao novaParticipacao = new Participacao(idParticipacao, idFuncionario, idProjeto, horasTrabalhadas);
-//           ParticipacaoDAO.inserir(novaParticipacao);
-//           System.out.println("Participação Nº" + idParticipacao + "adicionada." + "ID do participante:" + idFuncionario + "Nome:" + nomeFuncionario);
-     
+          Participacao novaParticipacao = new Participacao(idParticipacao, idFuncionario, idProjeto, horasTrabalhadas);
+          // ParticipacaoDAO.inserir(novaParticipacao);
+          System.out.println(novaParticipacao);
+     }
      
 //      public static void atualizarPartipacao(){
 

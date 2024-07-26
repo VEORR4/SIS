@@ -42,6 +42,10 @@ public class Participacao {
      public int getHorasTrabalhadas(int horasTrabalhadas){
           return this.horasTrabalhadas;
      }
+
+     public String toString(){
+          return "\nProjeto adicionado:\n\n" + "ID da participação:" + idParticipacao +  "\nID do funcionário:" + idFuncionario + "\nId do projeto: " + idProjeto + "\nHoras trabalhadas:" + horasTrabalhadas;
+     }
 }     
 
 

@@ -1,10 +1,13 @@
 package Service;
 import java.text.ParseException;
-import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.Scanner;
+import Model.Funcionario;
 
 public class Main {
     private static Scanner scanner = new Scanner(System.in);
+
+    static LinkedList<Funcionario> listaFuncionarios = new LinkedList<Funcionario>();
 
     Gerenciamento gerenciamento = new Gerenciamento();
 
@@ -63,10 +66,15 @@ public class Main {
             }
             switch (opcao) {
                 case 1:
-                    Gerenciamento.adicionarFuncionarios();
+                    listaFuncionarios.add(Gerenciamento.adicionarFuncionarios());
                     break;
                 case 2:
                     // Gerenciamento.listarFuncionarios();
+                    System.out.println("Lista de funcionários: ");
+                    for (Funcionario funcionario : listaFuncionarios) {
+                        System.out.println("ID:" + funcionario.getIdFuncionario() + "Nome:" + funcionario.getNomeFuncionario() + "\n");
+                        
+                    }
                     break;
                 case 3:
                     // Gerenciamento.atualizarFuncionarios();
@@ -91,7 +99,7 @@ public class Main {
             System.out.println("\n2: Listar projetos");
             System.out.println("\n3: Atualizar projeto");
             System.out.println("\n4: Excluir projeto");
-            System.out.println("\n0: Voltar");
+            System.out.println("\n0: Voltar\n");
             System.out.print("Opção: ");
             opcao = scanner.nextInt();
 
@@ -140,7 +148,7 @@ public class Main {
             }
             switch (opcao) {
                 case 1:
-                    // Gerenciamento.criarParticipacao();
+                    Gerenciamento.criarParticipacao();
                     break;
                 case 2:
                     // Gerenciamento.listarParticipacoes();

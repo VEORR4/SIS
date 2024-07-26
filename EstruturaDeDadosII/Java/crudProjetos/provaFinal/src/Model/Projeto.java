@@ -53,8 +53,11 @@ public class Projeto {
      public String getDataFim(String dataFim){
           return this.dataFim;
      }
-}    
 
+     public String toString(){          
+          return "Funcionário adicionado:\n\n ID:" + idProjeto + "\nNome:" + nomeProjeto + " \nDescrição:" + descricaoProjeto + "\nInício:" + dataInicio + "\nFim:" + dataFim;
+     }        
+}
     
 
 
