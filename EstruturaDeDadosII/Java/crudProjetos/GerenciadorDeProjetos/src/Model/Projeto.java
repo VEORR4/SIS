@@ -55,7 +55,7 @@ public class Projeto {
      }
 
      public String toString(){          
-          return "Funcionário adicionado:\n\n ID:" + idProjeto + "\nNome:" + nomeProjeto + " \nDescrição:" + descricaoProjeto + "\nInício:" + dataInicio + "\nFim:" + dataFim;
+          return "Projeto adicionado:\n\nID:" + idProjeto + "\nNome:" + nomeProjeto + " \nDescrição:" + descricaoProjeto + "\nInício:" + dataInicio + "\nFim:" + dataFim;
      }        
 }
     

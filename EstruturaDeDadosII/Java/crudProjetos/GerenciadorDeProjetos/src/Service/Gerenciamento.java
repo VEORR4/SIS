@@ -2,6 +2,7 @@ package Service;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.LinkedList;
 import java.util.Scanner;
 
 // import DAO.FuncionarioDAO;
@@ -12,6 +13,8 @@ import Model.Participacao;
 import Model.Projeto;
 // import DAO.ParticipacaoDAO;
 
+
+
 public class Gerenciamento {
      // static FuncionarioDAO FuncionarioDAO = new FuncionarioDAO();
      // static ProjetoDAO ProjetoDAO = new ProjetoDAO();
@@ -21,18 +24,27 @@ public class Gerenciamento {
 
      static String nomeFuncionario, cargo, departamento, nomeProjeto, descricaoProjeto, nomeParticipacao, descricaoParticipacao, dataInicio, dataFim;
      static int idFuncionario, idProjeto, idParticipacao, horasTrabalhadas;
+
+     static LinkedList<Funcionario> listaFuncionarios = new LinkedList<Funcionario>();
+     static LinkedList<Projeto> listaProjetos = new LinkedList<Projeto>();
      
      
      //FUNCIONÁRIOS
      public static Funcionario adicionarFuncionarios(){
-          System.out.print("Digite o ID do funcionário: ");
-          idFuncionario = scanner.nextInt();
+          try {
+               System.out.print("Digite o ID do funcionário: ");
+               idFuncionario = Integer.parseInt(scanner.nextLine());
+          } catch (Exception e) {
+               System.err.println("Dados inválidos...");
+               return null;
+          }
+
           System.out.print("Digite o nome do funcionário: ");
-          nomeFuncionario = scanner.next();
+          nomeFuncionario = scanner.nextLine();
           System.out.print("Digite o cargo do funcionário: ");
-          cargo = scanner.next();
+          cargo = scanner.nextLine();
           System.out.print("Digite o departamento do funcionário: ");
-          departamento = scanner.next();
+          departamento = scanner.nextLine();
           System.out.print("\n");
 
           Funcionario novoFuncionario = new Funcionario(idFuncionario, nomeFuncionario, cargo, departamento);
@@ -41,10 +53,11 @@ public class Gerenciamento {
           return novoFuncionario;   
      }
      
-     public static String listarFuncionarios(){
-          System.out.println("\nFuncionários: ");
-          return "FuncionarioDAO.listarFuncionarios()";
-          
+     public static void listarFuncionarios(){
+          System.out.println("\nFuncionários:\n");
+          for (Funcionario funcionario : listaFuncionarios){
+               System.out.println("ID:" + funcionario.getIdFuncionario() + " Nome:" + funcionario.getNomeFuncionario());
+          }
      }
 
 //      public static void atualizarFuncionarios(){
@@ -83,35 +96,39 @@ public class Gerenciamento {
      public static void criarProjeto(){
           System.out.print("Digite o ID do projeto: ");
           idProjeto = scanner.nextInt();
+          scanner.nextLine();
 
           System.out.print("Digite o nome do projeto: ");
-          nomeProjeto = scanner.next();
+          nomeProjeto = scanner.nextLine();
 
           System.out.print("Digite a descrição do projeto: ");
-          descricaoProjeto = scanner.next();
+          descricaoProjeto = scanner.nextLine();
 
           System.out.print("Digite data de início do projeto(dd/mm/yyyy): ");
-          dataInicio = scanner.next();
+          dataInicio = scanner.nextLine();
      
           System.out.print("Digite data final do projeto(dd/mm/yyyy): ");
-          dataFim = scanner.next();
+          dataFim = scanner.nextLine();
           System.out.print("\n");
           
 
           Projeto novoProjeto = new Projeto(idProjeto, nomeProjeto, descricaoProjeto, dataInicio, dataFim);
+          listaProjetos.add(novoProjeto);
           // ProjetoDAO.inserir(novoProjeto);
 
           System.out.println(novoProjeto);
      }
+
+     public static void listarProjetos(){
+          for (Projeto projeto : listaProjetos) {
+               System.out.println("ID:" + projeto.getId(idProjeto));
+          }
+     }
      
 //      public static void atualizarProjeto(){
-
 //      }
-//      public static void listarProjetos(){
 
-//      }
 //      public static void excluirProjeto(){
-
 //      }
 
      //PARTICIPAÇÕES

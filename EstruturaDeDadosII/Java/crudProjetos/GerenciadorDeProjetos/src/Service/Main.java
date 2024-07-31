@@ -4,12 +4,9 @@ import java.util.LinkedList;
 import java.util.Scanner;
 import Model.Funcionario;
 
+
 public class Main {
     private static Scanner scanner = new Scanner(System.in);
-
-    static LinkedList<Funcionario> listaFuncionarios = new LinkedList<Funcionario>();
-
-    Gerenciamento gerenciamento = new Gerenciamento();
 
     public static void main(String[] args) throws ParseException {
         int opcao;
@@ -66,15 +63,10 @@ public class Main {
             }
             switch (opcao) {
                 case 1:
-                    listaFuncionarios.add(Gerenciamento.adicionarFuncionarios());
+                    Gerenciamento.listaFuncionarios.add(Gerenciamento.adicionarFuncionarios());
                     break;
                 case 2:
-                    // Gerenciamento.listarFuncionarios();
-                    System.out.println("Lista de funcionários: ");
-                    for (Funcionario funcionario : listaFuncionarios) {
-                        System.out.println("ID:" + funcionario.getIdFuncionario() + "Nome:" + funcionario.getNomeFuncionario() + "\n");
-                        
-                    }
+                    Gerenciamento.listarFuncionarios();
                     break;
                 case 3:
                     // Gerenciamento.atualizarFuncionarios();
@@ -112,7 +104,7 @@ public class Main {
                     Gerenciamento.criarProjeto();
                     break;
                 case 2:
-                    // Gerenciamento.listarProjetos();
+                    Gerenciamento.listarProjetos();
                     break;
                 case 3:
                     // Gerenciamento.atualizarProjeto();
