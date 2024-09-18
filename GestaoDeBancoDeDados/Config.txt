@@ -1,0 +1,191 @@
+LastSessions<|||>1<|||>Unnamed
+LastActiveSession<|||>1<|||>Unnamed
+SessionManager_WindowWidth<|||>3<|||>1378
+SessionManager_WindowHeight<|||>3<|||>733
+SessionManager_WindowLeft<|||>3<|||>-12
+SessionManager_WindowTop<|||>3<|||>0
+ColWidths_connform.ListSessions<|||>1<|||>163,50,50,50,50,50,117
+ColsVisible_connform.ListSessions<|||>1<|||>0,1,4,6
+ColPositions_connform.ListSessions<|||>1<|||>0,1,2,3,4,5,6
+ColSort_connform.ListSessions<|||>1<|||>0,0
+CreateDbCollation<|||>1<|||>latin1_swedish_ci
+FileDialogEncoding_loaddataform<|||>3<|||>0
+CSVImportWindowWidth<|||>3<|||>666
+loadfilename<|||>1<|||>C:\Users\Libertas\Downloads\estudados-main\tabelas\erp.Coloboradores.csv
+CSVSeparatorV2<|||>1<|||>,
+CSVTerminator<|||>1<|||>\n
+CSVImportDuplicateHandling<|||>3<|||>0
+CSVImportParseMethod<|||>3<|||>1
+querymemoheight<|||>3<|||>149
+sqloutheight<|||>3<|||>80
+MainWinMaximized<|||>3<|||>1
+MainWinOnMonitor<|||>3<|||>0
+ColWidths_MainForm.ListDatabases<|||>1<|||>150,80,50,50,50,50,50,50,50,50,120
+ColsVisible_MainForm.ListDatabases<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10
+ColPositions_MainForm.ListDatabases<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10
+ColSort_MainForm.ListDatabases<|||>1<|||>0,0
+ColWidths_MainForm.ListVariables<|||>1<|||>160,200,428
+ColsVisible_MainForm.ListVariables<|||>1<|||>0,1,2
+ColPositions_MainForm.ListVariables<|||>1<|||>0,1,2
+ColSort_MainForm.ListVariables<|||>1<|||>0,0
+ColWidths_MainForm.ListStatus<|||>1<|||>160,428,100,100
+ColsVisible_MainForm.ListStatus<|||>1<|||>0,1,2,3
+ColPositions_MainForm.ListStatus<|||>1<|||>0,1,2,3
+ColSort_MainForm.ListStatus<|||>1<|||>0,0
+ColWidths_MainForm.ListProcesses<|||>1<|||>70,80,80,80,80,50,50,298
+ColsVisible_MainForm.ListProcesses<|||>1<|||>0,1,2,3,4,5,6,7
+ColPositions_MainForm.ListProcesses<|||>1<|||>0,1,2,3,4,5,6,7
+ColSort_MainForm.ListProcesses<|||>1<|||>0,1
+ColWidths_MainForm.ListCommandStats<|||>1<|||>120,100,100,100,368
+ColsVisible_MainForm.ListCommandStats<|||>1<|||>0,1,2,3,4
+ColPositions_MainForm.ListCommandStats<|||>1<|||>0,1,2,3,4
+ColSort_MainForm.ListCommandStats<|||>1<|||>1,1
+ColWidths_MainForm.ListTables<|||>1<|||>120,70,70,120,120,70,100,50,70,70,70,70,70,90,120,70,70,70,50
+ColsVisible_MainForm.ListTables<|||>1<|||>0,1,2,3,4,5,6,18
+ColPositions_MainForm.ListTables<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18
+ColSort_MainForm.ListTables<|||>1<|||>0,0
+FileDialogEncoding_MainForm<|||>3<|||>0
+ColWidths_frmTableEditor.listColumns<|||>1<|||>58,100,154,90,60,65,50,117,130,140,100,100
+ColsVisible_frmTableEditor.listColumns<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10,11
+ColPositions_frmTableEditor.listColumns<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10,11
+ColSort_frmTableEditor.listColumns<|||>1<|||>-1,0
+ColWidths_frmTableEditor.treeIndexes<|||>1<|||>261,100,80,120
+ColsVisible_frmTableEditor.treeIndexes<|||>1<|||>0,1,2,3
+ColPositions_frmTableEditor.treeIndexes<|||>1<|||>0,1,2,3
+ColSort_frmTableEditor.treeIndexes<|||>1<|||>-1,0
+ColWidths_frmTableEditor.listForeignKeys<|||>1<|||>83,176,245,189,80,80
+ColsVisible_frmTableEditor.listForeignKeys<|||>1<|||>0,1,2,3,4,5
+ColPositions_frmTableEditor.listForeignKeys<|||>1<|||>0,1,2,3,4,5
+ColSort_frmTableEditor.listForeignKeys<|||>1<|||>-1,0
+ColWidths_frmTableEditor.listCheckConstraints<|||>1<|||>200,408
+ColsVisible_frmTableEditor.listCheckConstraints<|||>1<|||>0,1
+ColPositions_frmTableEditor.listCheckConstraints<|||>1<|||>0,1
+ColSort_frmTableEditor.listCheckConstraints<|||>1<|||>-1,0
+dbtreewidth<|||>3<|||>214
+ExportSQL_CreateTables<|||>3<|||>1
+ExportSQL_DataHow<|||>3<|||>4
+ExportSQL_Output<|||>3<|||>1
+ExportSQL_ZipFilenames<|||>1<|||>C:\Users\Libertas\Documents\HeidiSQL\BackupGestaoDB\Backup.zip<{{{><}}}>
+PromptSaveFileOnTabClose<|||>3<|||>0
+ColWidths_UserManagerForm.listUsers<|||>1<|||>96,80
+ColsVisible_UserManagerForm.listUsers<|||>1<|||>0,1
+ColPositions_UserManagerForm.listUsers<|||>1<|||>0,1
+ColSort_UserManagerForm.listUsers<|||>1<|||>0,0
+queryhelperswidth<|||>3<|||>157
+ColWidths_frmRoutineEditor.listParameters<|||>1<|||>50,357,90,70
+ColsVisible_frmRoutineEditor.listParameters<|||>1<|||>0,1,2,3
+ColPositions_frmRoutineEditor.listParameters<|||>1<|||>0,1,2,3
+ColSort_frmRoutineEditor.listParameters<|||>1<|||>-1,0
+ExportSQL_CreateDatabases<|||>3<|||>1
+TableTools_WindowHeight<|||>3<|||>555
+TableTools_TreeWidth<|||>3<|||>320
+SessionManager_ListWidth<|||>3<|||>384
+SQLFile0<|||>1<|||>C:\Users\Libertas\AppData\Roaming\HeidiSQL\Backups\query-tab-2024-09-16_20-05-16-557.sql
+SQLFile1<|||>1<|||>C:\Users\Libertas\AppData\Roaming\HeidiSQL\Backups\query-tab-.sql
+SQLFile2<|||>1<|||>C:\Users\Libertas\Downloads\gestaobd\Cargos.sql
+SQLFile3<|||>1<|||>C:\Users\Libertas\Downloads\gestaobd\Motivos_Demissao.sql
+SQLFile4<|||>1<|||>C:\Users\Libertas\Downloads\gestaobd\Estado_Civil.sql
+SQLFile5<|||>1<|||>C:\Users\Libertas\Downloads\gestaobd\Escolaridade.sql
+SQLFile6<|||>1<|||>C:\Users\Libertas\Downloads\gestaobd\Empresa.sql
+SQLFile7<|||>1<|||>C:\Users\Libertas\Downloads\gestaobd\Departamentos.sql
+SQLFile8<|||>1<|||>C:\Users\Libertas\Downloads\gestaobd\Colaboradores.sql
+SQLFile9<|||>1<|||>C:\Users\Libertas\Downloads\gestaobd\CentrosDeCustos.sql
+SQLFile10<|||>1<|||>C:\Users\Libertas\Desktop\a.sql
+Servers\Unnamed\SessionCreated<|||>1<|||>2024-08-01 20:59:13
+Servers\Unnamed\Host<|||>1<|||>127.0.0.1
+Servers\Unnamed\WindowsAuth<|||>3<|||>0
+Servers\Unnamed\CleartextPluginEnabled<|||>3<|||>0
+Servers\Unnamed\User<|||>1<|||>root
+Servers\Unnamed\Password<|||>1<|||>3
+Servers\Unnamed\LoginPrompt<|||>3<|||>0
+Servers\Unnamed\Port<|||>1<|||>3306
+Servers\Unnamed\NetType<|||>3<|||>0
+Servers\Unnamed\Compressed<|||>3<|||>0
+Servers\Unnamed\LocalTimeZone<|||>3<|||>0
+Servers\Unnamed\QueryTimeout<|||>3<|||>30
+Servers\Unnamed\KeepAlive<|||>3<|||>20
+Servers\Unnamed\FullTableStatus<|||>3<|||>1
+Servers\Unnamed\Databases<|||>1<|||>
+Servers\Unnamed\Library<|||>1<|||>libmariadb.dll
+Servers\Unnamed\Comment<|||>1<|||>
+Servers\Unnamed\StartupScriptFilename<|||>1<|||>
+Servers\Unnamed\TreeBackground<|||>3<|||>536870911
+Servers\Unnamed\SSHtunnelActive<|||>3<|||>0
+Servers\Unnamed\SshExecutable<|||>1<|||>
+Servers\Unnamed\SSHtunnelHost<|||>1<|||>
+Servers\Unnamed\SSHtunnelHostPort<|||>3<|||>22
+Servers\Unnamed\SSHtunnelUser<|||>1<|||>
+Servers\Unnamed\SSHtunnelPassword<|||>1<|||>9
+Servers\Unnamed\SSHtunnelTimeout<|||>3<|||>4
+Servers\Unnamed\SSHtunnelPrivateKey<|||>1<|||>
+Servers\Unnamed\SSHtunnelPort<|||>3<|||>3307
+Servers\Unnamed\SSL_Active<|||>3<|||>0
+Servers\Unnamed\SSL_Key<|||>1<|||>
+Servers\Unnamed\SSL_Cert<|||>1<|||>
+Servers\Unnamed\SSL_CA<|||>1<|||>
+Servers\Unnamed\SSL_Cipher<|||>1<|||>
+Servers\Unnamed\IgnoreDatabasePattern<|||>1<|||>
+Servers\Unnamed\LogFileDdl<|||>3<|||>0
+Servers\Unnamed\LogFileDml<|||>3<|||>0
+Servers\Unnamed\LogFilePath<|||>1<|||>C:\Users\Libertas\AppData\Roaming\HeidiSQL\Logs\%session\%db\%y%m%d.sql
+Servers\Unnamed\ServerVersionFull<|||>1<|||>11.3.2-MariaDB - mariadb.org binary distribution
+Servers\Unnamed\ConnectCount<|||>3<|||>15
+Servers\Unnamed\ServerVersion<|||>3<|||>110302
+Servers\Unnamed\LastConnect<|||>1<|||>2024-09-18 20:28:24
+Servers\Unnamed\lastUsedDB<|||>1<|||>
+Servers\Unnamed\RefusedCount<|||>3<|||>6
+Servers\Unnamed\gestaodb|cargos\MemoEditorHighlighter_cbo<|||>1<|||>
+Servers\Unnamed\gestaodb|cargos\MemoEditorHighlighter_Cargo<|||>1<|||>
+Servers\Unnamed\QueryHistory\40<|||>1<|||>2024-08-19 19:22:28|gestaodb|31|CREATE DATABASE COMERCIAL<{{{><}}}>
+Servers\Unnamed\QueryHistory\41<|||>1<|||>2024-08-19 19:28:27|comercial|281|CREATE TABLE comclien(<{{{><}}}>	n_numeclien INT NOT NULL AUTO_INCREMENT,<{{{><}}}>	c_codiclien VARCHAR(10),<{{{><}}}>	c_nomeclien VARCHAR(100),<{{{><}}}>	c_razaclien VARCHAR(100),<{{{><}}}>	c_dataclien date,<{{{><}}}>	c_cnpjclien VARCHAR(20),<{{{><}}}>	c_forneclien VARCHAR(20),<{{{><}}}>	PRIMARY KEY (n_numeclien));
+Servers\Unnamed\QueryHistory\43<|||>1<|||>2024-08-19 19:31:08|comercial|15|	DESC comclien;
+Servers\Unnamed\QueryHistory\42<|||>1<|||>2024-08-19 19:41:49|comercial|172|	CREATE TABLE comforne(<{{{><}}}>		n_numeforne INT NOT NULL AUTO_INCREMENT,<{{{><}}}>		c_codiforne VARCHAR(10),<{{{><}}}>		c_nomeforne VARCHAR(100),<{{{><}}}>		c_razaforne VARCHAR(100),<{{{><}}}>		c_foneforne VARCHAR(20),<{{{><}}}>		PRIMARY KEY (n_numeforne));<{{{><}}}>	
+Servers\Unnamed\QueryHistory\44<|||>1<|||>2024-08-19 19:42:28|comercial|16|		DESC comforne;
+Servers\Unnamed\QueryHistory\45<|||>1<|||>2024-08-19 19:42:56|comercial|32|DESC comclien;		<{{{><}}}>DESC comforne;
+Servers\Unnamed\QueryHistory\46<|||>1<|||>2024-08-19 19:48:16|comercial|172|CREATE TABLE comvende(<{{{><}}}>	n_numevende INT NOT NULL AUTO_INCREMENT,<{{{><}}}>	c_codivende VARCHAR(10),<{{{><}}}>	c_nomevende VARCHAR (100),<{{{><}}}>	c_razavende VARCHAR(100),<{{{><}}}>	c_fonevende VARCHAR(20),<{{{><}}}>	n_porcvende FLOAT(10, 2),<{{{><}}}>	PRIMARY KEY (n_numevende));
+Servers\Unnamed\QueryHistory\47<|||>1<|||>2024-08-19 19:48:36|comercial|16|DESC comvende;
+Servers\Unnamed\QueryHistory\48<|||>1<|||>2024-08-19 19:52:29|comercial|172|CREATE TABLE comprodu(<{{{><}}}>	n_numeprodu INT NOT NULL AUTO_INCREMENT,<{{{><}}}>	c_codiprodu VARCHAR(20),<{{{><}}}>	c_descprodu VARCHAR(100),<{{{><}}}>	n_valoprodu FLOAT(10, 2),<{{{><}}}>	c_situprodu VARCHAR(1), <{{{><}}}>	n_numeforne INT, <{{{><}}}>	PRIMARY KEY (n_numeprodu));<{{{><}}}>
+Servers\Unnamed\QueryHistory\50<|||>1<|||>2024-08-19 19:59:00|comercial|438|DROP TABLE comvenda;
+Servers\Unnamed\QueryHistory\51<|||>1<|||>2024-08-19 19:59:12|comercial|172|CREATE TABLE comvendas(<{{{><}}}>	n_numevenda INT NOT NULL AUTO_INCREMENT,<{{{><}}}>	c_condivenda VARCHAR(10),<{{{><}}}>	n_numeclien INT NOT NULL,<{{{><}}}>	n_numeforme INT NOT NULL,<{{{><}}}>	n_numevende INT NOT NULL,<{{{><}}}>	n_valovenda FLOAT(10, 2),<{{{><}}}>	n_descvenda FLOAT(10, 2),<{{{><}}}>	n_totavenda FLOAT(10, 2),<{{{><}}}>	d_datavenda DATE, <{{{><}}}>	PRIMARY KEY(n_numevenda));
+Servers\Unnamed\QueryHistory\52<|||>1<|||>2024-08-19 20:03:19|comercial|187|CREATE TABLE comivenda(<{{{><}}}>	n_numeivenda INT NOT NULL AUTO_INCREMENT,<{{{><}}}>	n_numevenda INT NOT NULL,<{{{><}}}>	n_numeprodu INT NOT NULL,<{{{><}}}>	n_valoivenda FLOAT(10, 2),<{{{><}}}>	n_qtdeivenda INT,<{{{><}}}>	n_descivenda FLOAT(10, 2),<{{{><}}}>	PRIMARY KEY(n_numeivenda));
+Servers\Unnamed\QueryHistory\53<|||>1<|||>2024-08-19 20:11:06|comercial|188|DROP TABLE comvendas;
+Servers\Unnamed\QueryHistory\54<|||>1<|||>2024-08-19 20:11:12|comercial|234|CREATE TABLE comvenda(<{{{><}}}>	n_numevenda INT NOT NULL AUTO_INCREMENT,<{{{><}}}>	c_condivenda VARCHAR(10),<{{{><}}}>	n_numeclien INT NOT NULL,<{{{><}}}>	n_numeforme INT NOT NULL,<{{{><}}}>	n_numevende INT NOT NULL,<{{{><}}}>	n_valovenda FLOAT(10, 2),<{{{><}}}>	n_descvenda FLOAT(10, 2),<{{{><}}}>	n_totavenda FLOAT(10, 2),<{{{><}}}>	d_datavenda DATE, <{{{><}}}>	PRIMARY KEY(n_numevenda));
+Servers\Unnamed\QueryHistory\49<|||>1<|||>2024-08-22 21:21:52|livros|718|CREATE TABLE livros(id INT, titulo VARCHAR(100), autorId INT, anoPublicacao INT)<{{{><}}}>
+Servers\Unnamed\QueryHistory\55<|||>1<|||>2024-08-22 21:23:06|livros|218|CREATE TABLE autores(id INT, nome VARCHAR(300));
+Servers\Unnamed\QueryHistory\56<|||>1<|||>2024-08-22 21:24:00|livros|250|CREATE TABLE emprestimos(id INT, livroId INT, dataEmprestimo DATE, dataDevolucao DATE);
+Servers\Unnamed\QueryHistory\57<|||>1<|||>2024-08-26 19:17:18|livros|0|SHOW TABLES<{{{><}}}>
+Servers\Unnamed\QueryHistory\58<|||>1<|||>2024-08-26 19:22:41|comercial|922|ALTER TABLE comclien ADD COLUMN c_cidaclien VARCHAR(50);
+Servers\Unnamed\QueryHistory\59<|||>1<|||>2024-08-26 19:24:33|comercial|1219|ALTER TABLE comclien ADD COLUMN c_estclien VARCHAR(50);
+Servers\Unnamed\QueryHistory\61<|||>1<|||>2024-08-26 19:35:44|comercial|390|ALTER TABLE comclien RENAME COLUMN c_estclien TO c_estaclien;
+Servers\Unnamed\QueryHistory\62<|||>1<|||>2024-08-26 19:37:08|comercial|31|DESC comclien
+Servers\Unnamed\QueryHistory\60<|||>1<|||>2024-08-26 19:57:55|comercial|578|ALTER TABLE comvenda ADD CONSTRAINT fk_comprodu_comforne <{{{><}}}>FOREIGN KEY(n_numeforne)<{{{><}}}>REFERENCES comforne(n_numeforne)<{{{><}}}>ON delete NO ACTION<{{{><}}}>ON UPDATE NO ACTION;
+Servers\Unnamed\QueryHistory\64<|||>1<|||>2024-08-26 20:08:44|comercial|547|ALTER TABLE comvenda ADD CONSTRAINT fk_comprodu_comvende<{{{><}}}>FOREIGN KEY(n_numevende)<{{{><}}}>REFERENCES comvende(n_numevende)<{{{><}}}>ON delete NO ACTION<{{{><}}}>ON UPDATE NO ACTION;<{{{><}}}>
+Servers\Unnamed\QueryHistory\65<|||>1<|||>2024-08-26 20:10:44|comercial|468|ALTER TABLE comvenda ADD CONSTRAINT fk_comvenda_comclien<{{{><}}}>FOREIGN KEY(n_numeclien)<{{{><}}}>REFERENCES comclien(n_numeclien)<{{{><}}}>ON delete NO ACTION<{{{><}}}>ON UPDATE NO ACTION;
+Servers\Unnamed\QueryHistory\66<|||>1<|||>2024-08-26 20:11:42|comercial|500|ALTER TABLE comivenda ADD CONSTRAINT fk_comivenda_comprodu<{{{><}}}>FOREIGN KEY(n_numeprodu)<{{{><}}}>REFERENCES comprodu(n_numeprodu)<{{{><}}}>ON delete NO ACTION<{{{><}}}>ON UPDATE NO ACTION;
+Servers\Unnamed\QueryHistory\67<|||>1<|||>2024-08-26 20:13:47|comercial|500|ALTER TABLE comivenda ADD CONSTRAINT fk_comivenda_comvenda<{{{><}}}>FOREIGN KEY(n_numevenda)<{{{><}}}>REFERENCES comvenda(n_numevenda)<{{{><}}}>ON delete NO ACTION<{{{><}}}>ON UPDATE NO ACTION;
+Servers\Unnamed\QueryHistory\68<|||>1<|||>2024-08-26 20:21:52|comercial|47|## Inicio popula tabela Vendedores<{{{><}}}>insert into comvende values(1,'0001',    'CARLOS FERNANDES','CARLOS FERNANDES LTDA',  '(47) 7535-8144',12  );<{{{><}}}>insert into comvende values(2,'0002',    'JÚLIA	GOMES',     'JÚLIA GOMES LTDA',       '(12) 8037-6661',25  );<{{{><}}}>## Fim popula tabela Vendedores
+Servers\Unnamed\QueryHistory\69<|||>1<|||>2024-08-26 20:21:57|comercial|0|
+Servers\Unnamed\QueryHistory\63<|||>1<|||>2024-08-26 20:24:15|comercial|0|SELECT * FROM comclien
+Servers\Unnamed\QueryHistory\70<|||>1<|||>2024-08-26 20:26:31|comercial|31|DELETE FROM comclien 
+Servers\Unnamed\QueryHistory\71<|||>1<|||>2024-08-26 20:29:30|comercial|16|## Inicio popula tabela Fornecedores<{{{><}}}>insert into comforne values(1 ,'0001',  'DUN RITE LAWN MAINTENANCE'	   ,'DUN RITE LAWN MAINTENANCE LTDA'	,'(85) 7886-8837' );<{{{><}}}>insert into comforne values(2 ,'0002',  'SEWFRO FABRICS'	           ,'SEWFRO FABRICS LTDA'	            ,'(91) 5171-8483' );<{{{><}}}>## Fim popula tabela Fornecedores
+Servers\Unnamed\QueryHistory\72<|||>1<|||>2024-08-26 20:32:12|comercial|0|SELECT * FROM comclien;
+Servers\Unnamed\QueryHistory\73<|||>1<|||>2024-08-26 20:32:25|comercial|0|SELECT * FROM comforne comclien;
+Servers\Unnamed\QueryHistory\75<|||>1<|||>2024-08-26 20:32:52|comercial|0|SELECT * FROM comforne;
+Servers\Unnamed\QueryHistory\74<|||>1<|||>2024-08-26 20:33:02|comercial|0|SELECT * FROM comivenda;
+Servers\Unnamed\QueryHistory\76<|||>1<|||>2024-08-26 20:33:47|comercial|0|SELECT * FROM comprodu;
+Servers\Unnamed\QueryHistory\77<|||>1<|||>2024-08-26 20:34:00|comercial|0|SELECT * FROM comvenda;
+Servers\Unnamed\QueryHistory\78<|||>1<|||>2024-09-02 19:17:48|comercial|31|SELECT AVG(t.n_totavenda) FROM comvenda t
+Servers\Unnamed\QueryHistory\1<|||>1<|||>2024-09-02 19:19:13|comercial|16|SELECT FORMAT(AVG(t.n_totavenda), 2) media FROM comvenda t
+Servers\Unnamed\QueryHistory\2<|||>1<|||>2024-09-12 20:53:01|comercial|172|delimiter $$<{{{><}}}>CREATE DEFINER=`root`@`%` PROCEDURE `processa_comissionamento`(<{{{><}}}>	IN data_inicial DATE,<{{{><}}}>	IN data_final DATE,<{{{><}}}>	OUT total_processado INT)<{{{><}}}>BEGIN<{{{><}}}>		DECLARE total_venda FLOAT(10,2) DEFAULT 0;<{{{><}}}>		DECLARE venda INT DEFAULT 0;<{{{><}}}>		DECLARE vendedor INT DEFAULT 0;<{{{><}}}>		DECLARE comissao FLOAT(10,2) DEFAULT 0;<{{{><}}}>		DECLARE valor_comissao FLOAT(10,2) DEFAULT 0;<{{{><}}}>		DECLARE aux INT DEFAULT 0;<{{{><}}}>		DECLARE fimloop INT DEFAULT 0;<{{{><}}}>/*<{{{><}}}>cursor para buscar os registros a serem processados entre a data inicial e data final e valor total de venda é maior que zero.<{{{><}}}>*/		<{{{><}}}>		DECLARE busca_pedido CURSOR FOR<{{{><}}}>			SELECT n_numevenda, n_totavenda, n_numevende<{{{><}}}>			FROM comvenda<{{{><}}}>			WHERE d_datavenda BETWEEN data_inicial <{{{><}}}>			AND data_final AND n_totavenda > 0;<{{{><}}}>	/* rotina de tratamento para o banco de dados não executar o loop quando ele terminar, evitando que retorne erro.<{{{><}}}>*/<{{{><}}}>		DECLARE CONTINUE handler FOR SQLSTATE '02000' SET fimloop = 1;<{{{><}}}># Inicio do loop<{{{><}}}>	 	vendas: LOOP<{{{><}}}>		#verifica se o loop terminou e saio do loop<{{{><}}}>		if fimloop = 1 then <{{{><}}}>			leave vendas;<{{{><}}}>		END if;	<{{{><}}}>		#recebe o resultado da consulta em cada variável<{{{><}}}>		fetch busca_pedido INTO venda, total_venda, vendedor;<{{{><}}}>		#busca o valor do percentual de cada vendedor<{{{><}}}>		SELECT n_porcvende INTO comissao<{{{><}}}>		FROM comvende<{{{><}}}>		WHERE n_numevende = vendedor;<{{{><}}}>		#verifica se o percentual do vendedor é maior<{{{><}}}>		#que zero logo após a condição deve ter o then<{{{><}}}>		if (comissao > 0) then<{{{><}}}>			##calcula o valor da comissão<{{{><}}}>			SET valor_comissao =  ((total_venda * comissao) /100);<{{{><}}}>			#atualiza (update) a tabela comvenda com o valor da comissão<{{{><}}}>			UPDATE comvenda SET n_vcomvenda = valor_comissao WHERE n_numevenda = venda;<{{{><}}}>			COMMIT;<{{{><}}}>			<{{{><}}}>/*verifica se o percentual do vendedor é igual a zero na regra do nosso sistema se o vendedor tem 0 ele ganha 0 porcento de comissão <{{{><}}}>*/<{{{><}}}>		ELSEIF (comissao= 0) then<{{{><}}}>			UPDATE comvenda SET n_vcomvenda = 0 <{{{><}}}>			WHERE n_numevenda = venda;<{{{><}}}>			COMMIT;<{{{><}}}>/* se o vendedor nao possuir registro no percentual de comissao ele irá ganhar 1 de comissao isso pela regra de negocio do sistema.<{{{><}}}>*/<{{{><}}}>	ELSE <{{{><}}}>		SET comissao = 1;<{{{><}}}>		SET valor_comissao = ((total_venda * comissao) /100);<{{{><}}}>		UPDATE comvenda SET n_vcomvenda = valor_comissao WHERE n_numevenda = venda;<{{{><}}}>		COMMIT;<{{{><}}}>		#encerra o if<{{{><}}}>	END if;<{{{><}}}>	<{{{><}}}>				set comissao = 0;<{{{><}}}>				##utilizo a variável aux para contar a quantidade<{{{><}}}>				set  aux = aux +1 ;<{{{><}}}>			end loop vendas;<{{{><}}}>				## atribuo o total de vendas para a variável de<{{{><}}}>				## saída<{{{><}}}>			set total_processado = aux;<{{{><}}}>			## fecho o cursor<{{{><}}}>			close busca_pedido;<{{{><}}}>		<{{{><}}}>			##retorno o total de vendas processadas<{{{><}}}> 	END<{{{><}}}> 	<{{{><}}}> 	$$
+Servers\Unnamed\QueryHistory\3<|||>1<|||>2024-09-12 20:57:00|comercial|125|SELECT * FROM comivenda
+Servers\Unnamed\QueryHistory\4<|||>1<|||>2024-09-16 19:36:00|comercial|15|SET GLOBAL event_scheduler = ON;
+Servers\Unnamed\QueryHistory\6<|||>1<|||>2024-09-16 19:36:06|comercial|0|SELECT NOW();
+Servers\Unnamed\QueryHistory\7<|||>1<|||>2024-09-16 19:36:26|comercial|16|DROP EVENT if EXISTS processa_comissao;
+Servers\Unnamed\QueryHistory\8<|||>1<|||>2024-09-16 19:37:45|comercial|78|delimiter $<{{{><}}}>CREATE EVENT processa_comissao ON SCHEDULE EVERY 1 week STARTS '2024-09-16 19:45:00' DO BEGIN CALL processa_comissionamento(CURDATE() - INTERVAL 7 DAY, CURDATE(), @a); <{{{><}}}><{{{><}}}>END<{{{><}}}>$
+Servers\Unnamed\QueryHistory\9<|||>1<|||>2024-09-16 19:54:23|comercial|172|delimiter $<{{{><}}}>CREATE FUNCTION rt_percentual_comissao(vn_n_numevende INT) RETURNS FLOAT BEGIN DECLARE PERCENTUAL_comissao FLOAT(10,2);<{{{><}}}><{{{><}}}>SELECT n_porcvende INTO percentual_comissao FROM comvende WHERE n_numevende = vn_n;<{{{><}}}><{{{><}}}>RETURN percentual_comissao;<{{{><}}}>END;<{{{><}}}>$
+Servers\Unnamed\QueryHistory\11<|||>1<|||>2024-09-16 20:00:40|comercial|109|delimiter $<{{{><}}}>CREATE FUNCTION rt_percentual_comissao(vn_n_numevende INT)<{{{><}}}>RETURNS FLOAT<{{{><}}}>DETERMINISTIC<{{{><}}}>BEGIN <{{{><}}}>	DECLARE percentual_comissao FLOAT(10,2);<{{{><}}}><{{{><}}}>SELECT n_porcvende INTO percentual_comissao FROM comvende WHERE n_numevende = vn_n;<{{{><}}}><{{{><}}}>RETURN percentual_comissao;<{{{><}}}>END;<{{{><}}}>$
+Servers\Unnamed\QueryHistory\12<|||>1<|||>2024-09-16 20:03:05|comercial|94|DROP FUNCTION if EXISTS rt_percentual_comissao;
+Servers\Unnamed\QueryHistory\10<|||>1<|||>2024-09-16 20:05:07|comercial|109|delimiter $<{{{><}}}>CREATE FUNCTION rt_percentual_comissao(vn_n_numevende INT)<{{{><}}}>RETURNS FLOAT<{{{><}}}>DETERMINISTIC<{{{><}}}>BEGIN <{{{><}}}>	DECLARE percentual_comissao FLOAT(10,2);<{{{><}}}>	SELECT n_porcvende INTO percentual_comissao<{{{><}}}> 	FROM comvende<{{{><}}}>	 WHERE n_numevende = vn_n_numevende;RETURN <{{{><}}}>percentual_comissao;<{{{><}}}>END;$
+Servers\Unnamed\QueryHistory\13<|||>1<|||>2024-09-16 20:05:12|comercial|47|SELECT rt_percentual_comissao(1);
+Servers\Unnamed\QueryHistory\5<|||>1<|||>2024-09-16 20:23:34|comercial|0|SELECT * FROM comvenda
+Servers\Unnamed\QueryHistory\15<|||>1<|||>2024-09-16 20:23:44|comercial|0|DROP TRIGGER if EXISTS tri_vendas_bi;
