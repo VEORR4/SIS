@@ -1,3 +1,4 @@
+<%@page import="org.libertas.PessoaDAO"%>
 <%@page import="org.libertas.Pessoa"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
@@ -7,21 +8,15 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
-<body
+<body>
 	<%
 		Pessoa p = new Pessoa();
-		
-		//receba o parametro id e atribua no objetp pessoa o valor do idpessoa
-		p.setIdpessoa(Integer.parseInt(request.getParameter("id")));
-		//declare o PessoaDAO
-		PessoaDao pdao = new PessoaDao();
-		//execute o metodo excluir
+		p.setIdPessoa(Integer.parseInt(request.getParameter("id")));;
+		PessoaDAO pdao = new PessoaDAO();
 		pdao.excluir(p);
-		//adicione um link pra voltar pra pagina lista.jsp
-		
-		%>
-
+	%>
+	
 		Registro excluído com sucesso</br>
-		
+		<a href="index.jsp">Voltar pro inicio</a>
 </body>
 </html>

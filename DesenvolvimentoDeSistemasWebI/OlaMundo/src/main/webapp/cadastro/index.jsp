@@ -1,4 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
+;/<%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -7,11 +7,9 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h1>Exemplo de cadastro</h1>
-	
-	<a href="formulario.jsp?id=0">Novo Cadastro</a>
-	<br/>
-	<a href="listar.jsp">Listar</a>
-	
+	<h1>Exemplo de Cadastro</h1>
+	<a href="formulario.jsp">Novo Cadastro</a>
+	</br>
+	<a href="listar.jsp">Listar</a>	
 </body>
 </html>
